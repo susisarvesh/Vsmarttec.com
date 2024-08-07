@@ -1,5 +1,4 @@
 
-
 ---
 
 # Vsmarttec.com
@@ -36,7 +35,7 @@ src/
 
   - **cdn/**: Contains the CDN files such as JavaScript and CSS libraries, allowing the application to utilize external resources without the need for additional installations. Example files include `library1.min.js` and `library2.min.js`.
 
-- **api/**: Not required btw.
+- **api/**: This directory holds the files for managing API requests and interactions with backend services.
 
 - **configs/**: Configuration files and settings for the application are stored here.
 
@@ -61,6 +60,10 @@ src/
 2. Navigate to the project directory: `cd Vsmarttec.com`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
+
+## References
+
+For design inspiration, refer to [Aspectify Design](https://aspectify.design/). For content references, refer to [Vsmarttec](https://vsmarttec.com/).
 
 Feel free to explore the project and contribute!
 
