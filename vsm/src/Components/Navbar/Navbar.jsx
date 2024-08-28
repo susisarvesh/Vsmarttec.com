@@ -35,9 +35,8 @@ function Navbar() {
         { name: "Home", link: "/" },
         { name: "About Us", link: "/about-us" },
         { name: "Solutions", link: "/solutions" },
-        // { name: "Clients", link: "/clients" },
         { name: "Contact", link: "/contact" },
-        { name: "Carriers", link: "/contact" },
+        { name: "Carriers", link: "/carriers" },
     ];
 
     return (

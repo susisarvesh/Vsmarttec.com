@@ -1,6 +1,9 @@
+import Companies from "../Sections/Home/Companies"
 import Hero from "../Sections/Home/Hero"
 import Services from "../Sections/Home/Services"
-import Testimonials from "../Sections/Home/Testimonials"
+import Solution from "../Sections/Home/Solution"
+// import Services from "../Sections/Home/Services"
+
 
 
 function HomePage() {
@@ -8,8 +11,11 @@ function HomePage() {
     <div className="mt-[63px] p-1  lg:ml-[63px]">
       <div>
         <Hero></Hero>
-        {/* <Services></Services> */}
-        <Testimonials></Testimonials>
+      
+        <Companies></Companies>
+        <Solution></Solution>
+         <Services></Services>
+
         </div>
     </div>
   )

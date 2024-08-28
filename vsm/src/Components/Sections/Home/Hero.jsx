@@ -8,7 +8,7 @@ const slides = [
   },
     {
     videoSrc: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartmp4/software%20service.mp4?updatedAt=1724497759684",
-    title: "Innovative Software Solutions Tailored Technology for Your Needs",
+    title: "Innovative Software Solutions & Tailored Technology for Your Needs",
     description: "Leverage our expertise in software application development to receive tailored solutions for E-Learning, E-Commerce, Mobile Apps, 3D Animation, application redesign, Content Management Systems, and Custom Database Applications. We deliver innovative and customized software to meet your specific needs.",
   },
       {
@@ -52,7 +52,7 @@ function Hero() {
             </h1>
           </div>
           <div className="absolute right-0 bottom-0 max-w-3xl p-4 lg:p-12 text-white mb-4">
-            <p className="text-base lg:text-lg text-gray-300">
+            <p className="text-base md:text-[19px] lg:text-lg text-gray-300">
               {slide.description}
             </p>
             <button className="mt-8 bg-white text-black py-3 px-6 rounded-lg text-sm md:text-base lg:text-lg font-semibold flex items-center">
