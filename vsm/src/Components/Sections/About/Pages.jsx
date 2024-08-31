@@ -1,7 +1,7 @@
 
 function Pages() {
   return (
-    <div className='h-[100vh] bg-red-600'>Pages</div>
+    <div className='h-[100vh] bg-blue-400 text-2xl text-white'>Comming Soon..</div>
   )
 }
 

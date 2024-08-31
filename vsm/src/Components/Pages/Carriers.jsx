@@ -3,7 +3,7 @@ import Pages from '../Sections/About/Pages'
 
 function Carriers() {
   return (
-      <div>
+      <div className="mt-[63px] p-1  lg:ml-[63px]">
           <Pages></Pages>
     </div>
   )

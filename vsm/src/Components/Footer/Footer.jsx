@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 border-t border-gray-600 pt-4 w-full flex flex-col justify-between items-center gap-5 md:flex-row lg:flex-row">
-          <p className="text-xs font-semibold">&copy; 2021 Vsmart Technologies Pvt.Ltd.<span className='text-gray-400 ml-1'>All rights reserved.</span></p>
+          <p className="text-xs font-semibold">&copy; 2024 Vsmart Technologies Pvt.Ltd.<span className='text-gray-400 ml-1'>All rights reserved.</span></p>
           {/* <div className="flex space-x-4">
             <Link to="#" className="text-xs hover:underline text-gray-400">Privacy Policy</Link>
             <Link to="#" className="text-xs hover:underline text-gray-400">Terms & Conditions</Link>

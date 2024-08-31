@@ -1,4 +1,6 @@
+import Bookcall from "../Footer/Bookcall"
 import Companies from "../Sections/Home/Companies"
+import Founder from "../Sections/Home/Founder"
 import Hero from "../Sections/Home/Hero"
 import Services from "../Sections/Home/Services"
 import Solution from "../Sections/Home/Solution"
@@ -14,7 +16,10 @@ function HomePage() {
       
         <Companies></Companies>
         <Solution></Solution>
-         <Services></Services>
+        <Founder></Founder>
+        
+        <Services></Services>
+         <Bookcall></Bookcall>
 
         </div>
     </div>
