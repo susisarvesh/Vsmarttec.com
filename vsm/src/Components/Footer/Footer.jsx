@@ -44,7 +44,7 @@ const Footer = () => {
 </div>
 
         {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div> */}
-          <div className="relative z-10 flex flex-col justify-between h-full">
+          <div className="relative z-10 flex flex-col justify-start h-full">
             <div className='h-auto w-auto' >
            <img src="https://ik.imagekit.io/zhf0gkzac/VSmart/Vsmarttechnologies.png?updatedAt=1724834363389"  alt="VSmart Technologies Logo"
             className="w-full max-w-[150px] h-auto"/>

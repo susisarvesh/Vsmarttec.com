@@ -2,17 +2,17 @@ import { useState, useEffect } from "react";
 
 const slides = [
   {
-    videoSrc: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartmp4/security%20cctv%20camera.mp4?updatedAt=1724497748136",
+    videoSrc: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartmp4/security%20cctv%20camera.mov/ik-video.mp4?updatedAt=1725186352879",
     title: "Advanced Security & Surveillance  Cutting Edge Protection for Your Space",
     description: "Protect your spaces with our sophisticated CCTV systems. Featuring globally recognized cameras and advanced recorders, our solutions ensure early threat detection and provide clear evidence of any incidents. Enjoy peace of mind with reliable security, no matter where you are.",
   },
     {
-    videoSrc: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartmp4/software%20service.mp4?updatedAt=1724497759684",
+    videoSrc: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartmp4/software%20service%20(1).mp4?updatedAt=1725186141920",
     title: "Innovative Software Solutions & Tailored Technology for Your Needs",
     description: "Leverage our expertise in software application development to receive tailored solutions for E-Learning, E-Commerce, Mobile Apps, 3D Animation, application redesign, Content Management Systems, and Custom Database Applications. We deliver innovative and customized software to meet your specific needs.",
   },
       {
-    videoSrc: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartmp4/problem%20solving%20vsmart.mp4?updatedAt=1724506119700",
+    videoSrc: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartmp4/problem%20solving%20vsmart.mp4?updatedAt=1725185801351",
     title: "Tailored Custom Services Personalized Solutions for Every Need",
     description: "With over 6 years of experience, VSMART provides top-notch product and technical support for corporate and government clients. Our certified team ensures first-call resolution and exceptional customer service for a wide range of products and services.",
   }

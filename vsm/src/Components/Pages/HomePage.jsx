@@ -1,6 +1,6 @@
 import Bookcall from "../Footer/Bookcall"
+import AboutFounder from "../Sections/About/AboutFounder"
 import Companies from "../Sections/Home/Companies"
-import Founder from "../Sections/Home/Founder"
 import Hero from "../Sections/Home/Hero"
 import Services from "../Sections/Home/Services"
 import Solution from "../Sections/Home/Solution"
@@ -16,7 +16,8 @@ function HomePage() {
       
         <Companies></Companies>
         <Solution></Solution>
-        <Founder></Founder>
+        {/* <Founder></Founder> */}
+        <AboutFounder></AboutFounder>
         
         <Services></Services>
          <Bookcall></Bookcall>

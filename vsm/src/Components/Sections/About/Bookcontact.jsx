@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Bookcall = () => {
+const Bookcontact = () => {
     // Create a reference to the component
     const sectionRef = useRef(null);
 
@@ -61,4 +61,4 @@ const Bookcall = () => {
     );
 };
 
-export default Bookcall;
+export default Bookcontact;

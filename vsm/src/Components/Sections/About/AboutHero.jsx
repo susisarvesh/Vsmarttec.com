@@ -15,18 +15,19 @@ function AboutHero() {
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
 
       <div className="relative z-10 max-w-4xl p-4 lg:p-12 text-white mb-96">
-        <h1 className="text-3xl md:text-5xl lg:text-7xl leading-tight font-poppins">
-          Elevate <span className="text-gray-400">your startup's</span> success with our Webflow agency
+        <h1 className="text-2xl md:text-5xl lg:text-6xl font-poppins">
+         Delivering <span className="text-gray-400">Customized Security Solutions</span>  with Excellence and Innovation
         </h1>
+        
       </div>
 
       <div className="absolute right-0 bottom-0 max-w-3xl p-4 lg:p-12 text-white mb-16">
         <p className="text-base lg:text-lg text-gray-300">
-          We're a UK-based Webflow design agency focused on empowering startups, B2B, and fintech companies with an impactful online presence. We deliver high-quality, converting websites with impressive turnaround times.
+         Vsmart delivers tailored security solutions with a focus on innovation and exceptional service, transforming industry challenges into streamlined, effective solutions.
         </p>
-        <button className="mt-8 bg-white text-black py-3 px-6 rounded-full text-sm md:text-base lg:text-lg font-semibold flex items-center">
-          Book a free discovery call <span className="ml-2">→</span>
-        </button>
+      <button className="mt-8 bg-white text-black py-3 px-6 rounded-lg text-sm md:text-base lg:text-lg font-semibold flex items-center">
+              Book a free discovery call <span className="ml-2">→</span>
+            </button>
       </div>
     </div>
   );
