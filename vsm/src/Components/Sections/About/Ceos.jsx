@@ -14,18 +14,12 @@ const teamMembers = [
   },
   {
     name: "Raja CS",
-    role: "Founder | Webflow Developer",
+    role: "Founder | Managing Director at Vsmart",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusantium explicabo maiores pariatur. Incidunt culpa consequatur dolorum provident totam voluptates ipsa eaque neque optio inventore, odit, unde earum labore aliquid.",
     imageUrl: "https://media.licdn.com/dms/image/v2/C5603AQF_SdAfwQUkOA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517756585845?e=1730937600&v=beta&t=sucKfWr--x2AkL6GtVMtKNZ04Vs4yZC6aselynRN4dE",
   },
-//   {
-//     name: "Vivien",
-//     role: "Partner | Project Manager",
-//     description:
-//       "I'm Vivien, a Project manager dedicated to efficiency and collaboration. I manage each project internally to make sure everything stays on track from start to finish.",
-//     imageUrl: "URL_TO_VIVIEN_IMAGE",
-//   },
+
 ];
 
 const Ceos = () => {
@@ -55,7 +49,7 @@ const Ceos = () => {
   return (
     <div className="flex justify-center items-center">
       <section ref={sectionRef} className="py-10 px-4 bg-white lg:max-w-7xl">
-        <h2 className="text-2xl md:text-3xl lg:text-5xl font-light leading-normal text-slide-in text-center mb-10 text-customBlue">
+        <h2 className="text-2xl md:text-3xl lg:text-5xl font-light leading-normal text-center mb-10 text-customBlue">
           Meet the Creative Minds Behind Vsmart
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
