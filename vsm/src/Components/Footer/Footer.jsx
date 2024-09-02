@@ -62,7 +62,7 @@ const Footer = () => {
             <ul className="text-gray-200 space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index} className='hover:text-white cursor-pointer'>
-                  <Link to={link.path}>{link.name}</Link>
+                  <a href={link.path}>{link.name}</a>
                 </li>
               ))}
             </ul>

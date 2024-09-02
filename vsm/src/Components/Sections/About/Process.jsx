@@ -51,7 +51,7 @@ const Process = () => {
                 trigger: sectionRef.current,
                 start: 'top 80%', // Start the animation when the top of the section is 80% from the top of the viewport
                 end: 'bottom 20%', // End when the bottom of the section is 20% from the bottom of the viewport
-                toggleActions: 'play none none reverse', // Play animation on entering, reverse on leaving
+                toggleActions: 'play reverse play reverse', // Play animation on entering and leaving
                 markers: false, // Set to true for debugging
             },
         });
@@ -61,7 +61,7 @@ const Process = () => {
         <div ref={sectionRef} className="w-7xl mx-auto px-4 py-12">
             <div className="grid grid-cols-1 items-center lg:grid-cols-2 gap-4">
                 <h2 className="text-4xl font-semibold mb-6 text-customBlue">Our Process</h2>
-                <p className="mb-8 text-gray-600">At Vsmart, we believe in simplifying the complex. Our approach is designed to be efficient and effective, ensuring that each step of our process adds real value and drives innovation, while remaining transparent and easy to understand.</p>
+                <p className="mb-8 text-gray-600 md:text-lg lg:text-lg">At Vsmart, we believe in simplifying the complex. Our approach is designed to be efficient and effective, ensuring that each step of our process adds real value and drives innovation, while remaining transparent and easy to understand.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {steps.map((step, index) => (
@@ -71,7 +71,7 @@ const Process = () => {
                             index === 0 ? 'lg:col-span-2' : ''
                         } ${index === 2 ? 'md:col-span-3  lg:col-span-1 lg:row-span-2' : ''} ${index > 2 ? 'md:col-span-1 lg:row-span-2' : ''}`}
                         style={{
-                            minHeight: index > 1 ? '250px' : 'auto' // Adjust the height for indices 3, 4, and 5
+                            minHeight: index >= 1 ? '280px' : 'auto' // Adjust the height for indices 3, 4, and 5
                         }}
                     >
                         <div>
@@ -81,7 +81,7 @@ const Process = () => {
                             <h3 className="text-2xl font-semibold mb-2 text-customBlue">{step.title}</h3>
                         </div>
                         <div>
-                            <p className="text-gray-700">{step.description}</p>
+                            <p className="text-gray-700 md:text-lg lg:text-lg">{step.description}</p>
                         </div>
                     </div>
                 ))}
