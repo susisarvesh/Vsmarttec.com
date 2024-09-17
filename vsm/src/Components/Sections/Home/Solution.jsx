@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { LuArrowUpRight } from 'react-icons/lu';
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -122,14 +123,14 @@ const Solution = () => {
                             <h3 className="text-4xl text-customBlue font-normal mb-6">{project.title}</h3>
                             <p className="text-customBlue text-base mb-4">{project.description}</p>
                             <div className="text-right">
-                               <button 
+                               <a href="/solutions"><button 
     className="bg-customBlue text-white px-4 py-2 mt-5 rounded-md p-2 flex items-center lg:flex border-2 border-transparent group-hover:border-customBlue group-hover:bg-white group-hover:text-customBlue transition"
 >
     View More 
     <p className="arrow-icon">
         <LuArrowUpRight className="ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]" />
     </p>
-</button>
+</button></a>
                             </div>
                         </div>
                     </div>

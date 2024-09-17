@@ -102,7 +102,7 @@ const Companies = () => {
           className="rounded-lg mix-blend-multiply grayscale object-cover hover:grayscale-0 transition duration-600 lg:m-2"
           style={{
             width: "160px", // Fixed width
-            height: "130px", // Fixed height
+            height: "139px", // Fixed height
             objectFit: "contain", // Ensure the image covers the area
             userSelect: "none",
             aspectRatio: "3/2" // Ensuring consistent aspect ratio

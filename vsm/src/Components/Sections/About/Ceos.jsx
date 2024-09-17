@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -10,16 +10,41 @@ const teamMembers = [
     role: "Founder | Managing Director at Vsmart",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusantium explicabo maiores pariatur. Incidunt culpa consequatur dolorum provident totam voluptates ipsa eaque neque optio inventore, odit, unde earum labore aliquid.",
-    imageUrl: "https://media.licdn.com/dms/image/v2/C5603AQHdqmmuiJORfA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1624854246489?e=1730937600&v=beta&t=Be3tbnOtgcAQ6dgwRbXU5FMSlzJW7kiEDJz_27d4eZU",
+    imageUrl:
+      "https://media.licdn.com/dms/image/v2/C5603AQHdqmmuiJORfA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1624854246489?e=1730937600&v=beta&t=Be3tbnOtgcAQ6dgwRbXU5FMSlzJW7kiEDJz_27d4eZU",
   },
   {
     name: "Raja CS",
     role: "Founder | Managing Director at Vsmart",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusantium explicabo maiores pariatur. Incidunt culpa consequatur dolorum provident totam voluptates ipsa eaque neque optio inventore, odit, unde earum labore aliquid.",
-    imageUrl: "https://media.licdn.com/dms/image/v2/C5603AQF_SdAfwQUkOA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517756585845?e=1730937600&v=beta&t=sucKfWr--x2AkL6GtVMtKNZ04Vs4yZC6aselynRN4dE",
+    imageUrl:
+      "https://media.licdn.com/dms/image/v2/C5603AQF_SdAfwQUkOA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517756585845?e=1730937600&v=beta&t=sucKfWr--x2AkL6GtVMtKNZ04Vs4yZC6aselynRN4dE",
   },
-
+  {
+    name: "Raja CS",
+    role: "Founder | Managing Director at Vsmart",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusantium explicabo maiores pariatur. Incidunt culpa consequatur dolorum provident totam voluptates ipsa eaque neque optio inventore, odit, unde earum labore aliquid.",
+    imageUrl:
+      "https://media.licdn.com/dms/image/v2/C5603AQF_SdAfwQUkOA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517756585845?e=1730937600&v=beta&t=sucKfWr--x2AkL6GtVMtKNZ04Vs4yZC6aselynRN4dE",
+  },
+  {
+    name: "Raja CS",
+    role: "Founder | Managing Director at Vsmart",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusantium explicabo maiores pariatur. Incidunt culpa consequatur dolorum provident totam voluptates ipsa eaque neque optio inventore, odit, unde earum labore aliquid.",
+    imageUrl:
+      "https://media.licdn.com/dms/image/v2/C5603AQF_SdAfwQUkOA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517756585845?e=1730937600&v=beta&t=sucKfWr--x2AkL6GtVMtKNZ04Vs4yZC6aselynRN4dE",
+  },
+  {
+    name: "Raja CS",
+    role: "Founder | Managing Director at Vsmart",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusantium explicabo maiores pariatur. Incidunt culpa consequatur dolorum provident totam voluptates ipsa eaque neque optio inventore, odit, unde earum labore aliquid.",
+    imageUrl:
+      "https://media.licdn.com/dms/image/v2/C5603AQF_SdAfwQUkOA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517756585845?e=1730937600&v=beta&t=sucKfWr--x2AkL6GtVMtKNZ04Vs4yZC6aselynRN4dE",
+  },
 ];
 
 const Ceos = () => {
@@ -52,11 +77,11 @@ const Ceos = () => {
         <h2 className="text-2xl md:text-3xl lg:text-5xl font-light leading-normal text-center mb-10 text-customBlue">
           Meet the Creative Minds Behind Vsmart
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-8">
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-md overflow-hidden"
+              className={`bg-white rounded-lg shadow-md overflow-hidden ${index === 1 ? "lg:row-span-2" : "" }`}
               ref={(el) => (cardRefs.current[index] = el)}
             >
               <img
@@ -67,7 +92,7 @@ const Ceos = () => {
               <div className="p-4">
                 <h3 className="text-xl font-semibold">{member.name}</h3>
                 <p className="text-sm text-gray-500">{member.role}</p>
-                <p className="mt-2 text-gray-700">{member.description}</p>
+                {/* <p className="mt-2 text-gray-700">{member.description}</p> */}
                 <a
                   href="#"
                   className="text-blue-500 hover:text-blue-700 mt-4 block"

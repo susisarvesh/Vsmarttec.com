@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const slides = [
   {
@@ -55,9 +56,9 @@ function Hero() {
             <p className="text-base md:text-[19px] lg:text-lg text-gray-300">
               {slide.description}
             </p>
-            <button className="mt-8 bg-white text-black py-3 px-6 rounded-lg text-sm md:text-base lg:text-lg font-semibold flex items-center">
+            <a href="/contact"><button className="mt-8 bg-white text-black py-3 px-6 rounded-lg text-sm md:text-base lg:text-lg font-semibold flex items-center">
               Book a free discovery call <span className="ml-2">→</span>
-            </button>
+            </button></a>
           </div>
         </div>
       ))}

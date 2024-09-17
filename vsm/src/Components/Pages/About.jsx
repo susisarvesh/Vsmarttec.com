@@ -1,11 +1,11 @@
 import AboutHero from "../Sections/About/AboutHero"
 import Companies from "../Sections/Home/Companies"
 import Testimonials from "../Sections/Home/Testimonials"
-import Bookcall from "../Footer/Bookcall"
 import Process from "../Sections/About/Process"
 import AboutFounder from "../Sections/About/AboutFounder"
 import Bookcontact from "../Sections/About/Bookcontact"
 import Ceos from "../Sections/About/Ceos"
+// import Ceos from "../Sections/About/Ceos"
 
 function About() {
   return (
@@ -15,7 +15,7 @@ function About() {
       <Companies></Companies>
       
      
-      <Ceos></Ceos>
+      {/* <Ceos></Ceos> */}
        <Process></Process>
       <AboutFounder></AboutFounder>
   

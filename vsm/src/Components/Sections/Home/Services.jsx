@@ -28,10 +28,10 @@ const cardData = [
         title: "Smart Building Automation Solutions",
         description: "Vsmart offers cutting-edge solutions for HVAC control, lightning protection and comprehensive electronic security",
         buttonText: "Learn More",
-        bgColor: "#FB923C",
-        textColor: "white",
-        btnbgColor: "white",
-        btntextColor:"#FB923C",
+         bgColor: "white",
+        textColor: "#1E40AF",
+         btnbgColor: "#1E40AF",
+        btntextColor:"white",
     },
 ];
 

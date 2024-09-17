@@ -28,7 +28,7 @@ function Navbar() {
         {
             title: 'Discover Our Solutions',
             description: 'Discover our full range of security and automation solutions. Click here to learn how we can enhance your safety and access control.',
-            link: '/security-surveillance',
+            link: '/solutions',
         },
     ];
 
@@ -37,7 +37,7 @@ function Navbar() {
         { name: "About Us", link: "/about-us" },
         { name: "Solutions", link: "/solutions" },
         { name: "Contact", link: "/contact" },
-        { name: "Carriers", link: "/carriers" },
+        { name: "Careers", link: "/careers" },
     ];
 
     return (
@@ -88,7 +88,7 @@ function Navbar() {
 
                     <div className='grid grid-cols-1 md:grid-cols-2 text-white lg:grid-cols-4 gap-2'>
                         {menuItems.map((item, index) => (
-                            <Link to={item.link} key={index} className="p-5 text-xl rounded-[15px] flex flex-col justify-between h-[300px] lg:h-[400px] bg-blue-800 transition-opacity duration-500 ease-in-out group ">
+                            <a href ={item.link} key={index} className="p-5 text-xl rounded-[15px] flex flex-col justify-between h-[300px] lg:h-[400px] bg-blue-800 transition-opacity duration-500 ease-in-out group ">
                                 <div className='flex justify-between items-center '>
                                     <h3 className='text-[22px]'>{item.title}</h3>
                                     <p><LuArrowUpRight className='text-[30px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[25deg]' /></p>
@@ -96,7 +96,7 @@ function Navbar() {
                                 <div className='text-[16px] text-gray-200'>
                                     {item.description}
                                 </div>
-                            </Link>
+                            </a>
                         ))}
                     </div>
                 </div>

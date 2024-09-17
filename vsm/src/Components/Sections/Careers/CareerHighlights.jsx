@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
-const Process = () => {
+const CareerHighlights = () => {
     const steps = [
         {
             number: '1',
@@ -90,4 +90,4 @@ const Process = () => {
     );
 };
 
-export default Process;
+export default CareerHighlights;

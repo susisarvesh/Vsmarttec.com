@@ -1,11 +1,10 @@
-import { Link } from 'react-router-dom';
 import { Outlet } from "react-router-dom"
 const quickLinks = [
   { name: 'Home', path: '/' },
     { name: 'About us', path: '/about-us' },
   { name: 'Solutions', path: '/solutions' },
   { name: 'Contact', path: '/contact' },
-   { name: 'Carriers', path: '/carriers' },
+   { name: 'Careers', path: '/careers' },
 ];
 
 const services = [
@@ -19,6 +18,7 @@ const services = [
 const contactInfo = [
   { name: 'vsmarttec@gmail.com', path: 'mailto:vsmarttec@gmail.com' },
   { name: '+91 9444971577', path: 'tel:+91 9444971577' },
+  { name: '	+91 4426262743', path: 'tel:+91 4426262743' },
   { name: 'Book a free discovery call', path: '/book-call' }
 ];
 
@@ -72,7 +72,7 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Our services</h3>
             <ul className="text-gray-200 space-y-2">
               {services.map((service, index) => (
-                <li key={index} className='hover:text-white cursor-pointer'>{service}</li>
+               <li key={index} className='hover:text-white cursor-pointer'><a href={`/${service.toLowerCase().replace(/\s+/g, '-')}`}>{service}</a></li>
               ))}
             </ul>
           </div>
