@@ -11,15 +11,28 @@ const Testimonials = () => {
   const [expandedIndex, setExpandedIndex] = useState(-1);
 
   const items = [
-    {
-      title: "Batman",
-      details: "\"Design really helped kick-start my interior design and architecture business online! With their talent for web design, our website became a hit. It's super easy to navigate and showcases our work beautifully. Thanks to them, we're now able to reach new heights and we are closer to our business goals!\"",
-      image: imgLink,
-    },
-    { title: "Superman", details: "\"Additional info about Superman\"", image: imgLink },
-    { title: "Strange", details: "\"Additional info about Strange\"", image: imgLink },
-    { title: "Hulk", details: "\"Additional info about Hulk\"", image: imgLink },
-  ];
+  {
+    title: "Powering Innovation: Automotive Battery Leader",
+    details: "A global automotive battery giant with over 15,000 employees and 17 business units. Vsmart has been their trusted partner for 13+ years, implementing advanced attendance and access control systems. Over 100 readers and multiple access solutions have streamlined operations and enhanced security.",
+    image: imgLink,
+  },
+  {
+    title: "Securing the Nation: Defense Tech Partner",
+    details: "A prominent defense research organization specializing in critical systems. Vsmart provided integrated attendance, vehicle access, cafeteria management, and surveillance solutions, ensuring high security and operational efficiency across their facilities.",
+    image: imgLink,
+  },
+  {
+    title: "Driving Efficiency: Tyre Industry Pioneer",
+    details: "India's largest tyre manufacturer and a global brand leader. Vsmart delivered ERP-integrated attendance solutions, simplifying workforce management and improving productivity across their operations, ensuring seamless system integration.",
+    image: imgLink,
+  },
+  {
+    title: "Safeguarding Operations: Edible Oil Titan",
+    details: "A leading edible oil manufacturer with an extensive presence in India and Indonesia. Vsmart installed 200+ high-end CCTV systems to monitor and secure multiple plants, providing real-time visibility and ongoing system support for maximum reliability.",
+    image: imgLink,
+  },
+];
+
 
   const detailsRefs = useRef([]); // Refs for description parts
   const containerRef = useRef(null); // Ref for the entire component
@@ -78,9 +91,10 @@ const Testimonials = () => {
   return (
     <div ref={containerRef} className="w-7xl mx-5 p-5 bg-customBlue rounded-3xl flex flex-col justify-center items-center text-center select-none">
       <p className="text-white mb-4 text-3xl mt-9">
-        <span className="text-orange-500">Success stories</span>
-        <sup>&emsp;_____&emsp;</sup>A few testimonials from satisfied clients!
-      </p>
+  <span className="text-orange-500">Case Studies</span>
+  <sup>&emsp;_____&emsp;</sup>Highlighting impactful solutions driving business success.
+</p>
+
 
       <div className="max-w-5xl p-4 bg-white rounded-2xl w-full">
         {items.map((item, index) => (
@@ -91,11 +105,11 @@ const Testimonials = () => {
             <div
               onClick={() => toggleExpand(index)}
               className={`cursor-pointer p-4 font-semibold flex justify-between ${
-                expandedIndex === index ? 'text-black' : 'text-gray-400 hover:text-gray-500'
+                expandedIndex === index ? 'text-customBlue' : 'text-gray-400 hover:text-gray-500'
               } transition-colors duration-75`}
             >
               {/* This is title */}
-              <p>{item.title}</p>
+              <h2 className="text-lg font-medium">{item.title}</h2>
             </div>
             <div
               ref={(el) => (detailsRefs.current[index] = el)} // Ref for the description part
@@ -105,7 +119,8 @@ const Testimonials = () => {
               <div className="gap-5 items-center justify-center p-4 flex flex-col lg:flex-row-reverse">
                 {/* This is description */}
                 <p className="bg-gray-100 p-5 mb-5 text-gray-700 rounded-3xl text-left lg:h-72 lg:w-2/3 lg:text-xl sm:h-2/4 sm:max-w-xl">
-                  {item.details} &nbsp;<span>Company Name</span>
+                  {item.details} &nbsp;
+                  {/* <span>Company Name</span> */}
                 </p>
                 {/* this description ends here */}
                 <img

@@ -46,7 +46,7 @@ function Navbar() {
                 <div className='h-[63px] flex justify-between items-center border-b-2 bg-white'>
                     <div className="ml-7 flex items-center mb-2 bg-red-200"><img src="https://ik.imagekit.io/zhf0gkzac/VSmart/Vsmartec(1).png?updatedAt=1724082264366" alt="" className='object-cover h-[55px] lg:h-[64px]' /></div>
                     <div className="flex items-center justify-evenly h-full">
-                        <button className='bg-blue-800 text-white rounded-md p-2 hidden lg:flex items-center group'>Get in touch <p className='arrow-icon'><LuArrowUpRight className='ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]' /></p></button>
+                      <Link to="/contact">  <button className='bg-blue-800 text-white rounded-md p-2 hidden lg:flex items-center group'>Get in touch <p className='arrow-icon'><LuArrowUpRight className='ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]' /></p></button></Link>
 
                         <div className='border-l-2 w-20 h-full ml-2 flex justify-center items-center'>
                             <div

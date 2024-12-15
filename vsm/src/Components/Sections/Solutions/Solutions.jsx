@@ -11,25 +11,29 @@ const Solutions = () => {
             number: '1',
             title: 'Electronic Security Systems',
             description: 'We begin by understanding your business requirements through in-depth discussions. This allows us to identify your critical needs and challenges, ensuring our solutions align with your goals.',
-            backgroundImage: 'url(https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartsolutions/lock.jpg?updatedAt=1726389396000)'
+            backgroundImage: 'url(https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartsolutions/lock.jpg?updatedAt=1726389396000)',
+            href:"/electronic-security-systems"
         },
         {
             number: '2',
             title: 'Physical Security',
             description: 'Based on our initial discussions, we develop a customized proposal that outlines the plan of action, including cost estimates and timelines. This proposal serves as a roadmap to ensure clarity and alignment on project objectives.',
-            backgroundImage: 'url(https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartsolutions/physical%20security.jpg?updatedAt=1726386306617)' // Add the background image URL here
+            backgroundImage: 'url(https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartsolutions/physical%20security.jpg?updatedAt=1726386306617)',
+             href:"/physical-security"// Add the background image URL here
         },
         {
             number: '3',
             title: 'Smart Building Automation',
             description: 'Leveraging our deep industry knowledge, we devise a strategy tailored to your business needs. This phase involves conceptualizing innovative products and solutions that effectively bridge the gap between your physical and digital operations.',
-            backgroundImage: 'url(https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartsolutions/lightning.jpg?updatedAt=1726388949115)' // Add the background image URL here
-        },
+            backgroundImage: 'url(https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartsolutions/lightning.jpg?updatedAt=1726388949115)', // Add the background image URL here
+            href:"smart-building-automation-"
+        },  
         {
             number: '4',
             title: 'Audio-Visual Innovations',
             description: 'Our skilled team designs and develops the solutions using cutting-edge technologies. This stage involves the actual creation and integration of the solution into your business processes, ensuring a seamless and efficient implementation.',
-            backgroundImage: 'url(https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartsolutions/tv.jpg?updatedAt=1726390495153)' // Add the background image URL here
+            backgroundImage: 'url(https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartsolutions/tv.jpg?updatedAt=1726390495153)',
+            // Add the background image URL here
         },
         {
             number: '5',
