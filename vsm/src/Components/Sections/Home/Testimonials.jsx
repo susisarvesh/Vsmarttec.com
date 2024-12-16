@@ -14,22 +14,22 @@ const Testimonials = () => {
   {
     title: "Powering Innovation: Automotive Battery Leader",
     details: "A global automotive battery giant with over 15,000 employees and 17 business units. Vsmart has been their trusted partner for 13+ years, implementing advanced attendance and access control systems. Over 100 readers and multiple access solutions have streamlined operations and enhanced security.",
-    image: imgLink,
+    image: "https://ik.imagekit.io/zhf0gkzac/VSmart/vscasestudy/Automotive-Battery-PNG-Free-Image.png?updatedAt=1734309530015",
   },
   {
     title: "Securing the Nation: Defense Tech Partner",
     details: "A prominent defense research organization specializing in critical systems. Vsmart provided integrated attendance, vehicle access, cafeteria management, and surveillance solutions, ensuring high security and operational efficiency across their facilities.",
-    image: imgLink,
+    image: "https://ik.imagekit.io/zhf0gkzac/VSmart/vscasestudy/Defence-Budget-2024-AI-image-.webp?updatedAt=1734309853112",
   },
   {
     title: "Driving Efficiency: Tyre Industry Pioneer",
     details: "India's largest tyre manufacturer and a global brand leader. Vsmart delivered ERP-integrated attendance solutions, simplifying workforce management and improving productivity across their operations, ensuring seamless system integration.",
-    image: imgLink,
+    image: "https://ik.imagekit.io/zhf0gkzac/VSmart/vscasestudy/18990368_m-e1530161429828.jpg?updatedAt=1734310031291",
   },
   {
     title: "Safeguarding Operations: Edible Oil Titan",
     details: "A leading edible oil manufacturer with an extensive presence in India and Indonesia. Vsmart installed 200+ high-end CCTV systems to monitor and secure multiple plants, providing real-time visibility and ongoing system support for maximum reliability.",
-    image: imgLink,
+    image: "https://ik.imagekit.io/zhf0gkzac/VSmart/vscasestudy/edible-oils-418048_l.jpg?updatedAt=1734310188072",
   },
 ];
 

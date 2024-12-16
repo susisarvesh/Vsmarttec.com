@@ -2,6 +2,7 @@ import { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { LuArrowUpRight } from 'react-icons/lu';
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,7 +14,8 @@ const cardData = [
         bgColor: "white",
         textColor: "#1E40AF",
          btnbgColor: "#1E40AF",
-        btntextColor:"white",
+        btntextColor: "white",
+        Links:"/audio-visual-innovations/Meeting-Rooms"
     },
     {
         title: "Fire Safety & Emergency Response Systems",
@@ -22,7 +24,8 @@ const cardData = [
         bgColor: "white",
         textColor: "#1E40AF",
          btnbgColor: "#1E40AF",
-        btntextColor:"white",
+        btntextColor: "white",
+        Links:"/fire-safety-&-emergency/AuxiliaryControls"
     },
     {
         title: "Smart Building Automation Solutions",
@@ -31,7 +34,8 @@ const cardData = [
          bgColor: "white",
         textColor: "#1E40AF",
          btnbgColor: "#1E40AF",
-        btntextColor:"white",
+        btntextColor: "white",
+        Links:"/smart-building-automation/EnergyManagement"
     },
 ];
 
@@ -106,7 +110,7 @@ function Services() {
                     </div>
                     <div className="gap-2">
                         <h3 className='text-[14px] text-customBlue md:text-[19px] lg:text-[20px]'>Vsmart's Electronic Security Solutions provide comprehensive protection with advanced access control, video surveillance, and key management systems, ensuring secure access and real-time monitoring for enhanced safety and efficiency</h3>
-                       <button className='bg-blue-800 mt-5 text-white rounded-md p-2 flex items-center lg:flex items-center group'>View More <p className='arrow-icon'><LuArrowUpRight className='ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]' /></p></button>
+                       <a href="/electronic-security-systems/AccessControl"><button className='bg-blue-800 mt-5 text-white rounded-md p-2 flex items-center lg:flex items-center group'>View More <p className='arrow-icon'><LuArrowUpRight className='ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]' /></p></button> </a>
                     </div>
                 </div>
                 {/* make this as carousel image section */}
@@ -131,7 +135,7 @@ function Services() {
                     </div>
                         <div className="gap-2">
                         <h3 className='text-[14px] text-customBlue md:text-[19px] lg:text-[20px]'>Vsmart’s Physical Security Solutions deliver efficient access control and advanced protection with turnstiles, barriers, automatic gates, and precise intrusion detection systems.</h3>
-                             <button className='bg-blue-800 mt-5 text-white rounded-md p-2 flex items-center lg:flex group'>View More <p className='arrow-icon'><LuArrowUpRight className='ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]' /></p></button>
+                           <a href="/physical-security/AutomaticGate">  <button className='bg-blue-800 mt-5 text-white rounded-md p-2 flex items-center lg:flex group'>View More <p className='arrow-icon'><LuArrowUpRight className='ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]' /></p></button></a>
                     </div>
                 </div>
             </div>
@@ -149,7 +153,7 @@ function Services() {
                         </div>
                         <div className='flex flex-col items-start'>
                             <h3 className='text-[14px] md:text-[19px] lg:text-[18px]' style={{ color: card.textColor }}>{card.description}</h3>
-                            <button className='bg-blue-800 mt-5 text-white rounded-md p-2 flex items-center lg:flex group' style={{ color: card.btntextColor,backgroundColor: card.btnbgColor }}>View More <p className='arrow-icon'><LuArrowUpRight className='ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]' /></p></button>
+                            <a href={card.Links}> <button className='bg-blue-800 mt-5 text-white rounded-md p-2 flex items-center lg:flex group' style={{ color: card.btntextColor,backgroundColor: card.btnbgColor }}>View More <p className='arrow-icon'><LuArrowUpRight className='ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]' /></p></button></a>
                         </div>
                     </div>
                 ))}

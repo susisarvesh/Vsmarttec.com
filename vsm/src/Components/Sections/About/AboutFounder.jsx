@@ -43,8 +43,8 @@ const AboutFounder = () => {
       alt: "iso_certificate_vsmart",
       },
        {
-      src: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartawards/nisc.png?updatedAt=1725181842429",
-      alt: "nisc_vsmart",
+      src: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartawards/newNS-removebg-preview.png?updatedAt=1734309104385",
+      alt: "nsic_vsmart",
       },
         {
       src: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartawards/esai.jpeg?updatedAt=1725182313099",
@@ -67,22 +67,22 @@ const AboutFounder = () => {
           />
         </div>
         <div className="lg:w-1/2 lg:mr-10 mt-8 lg:mt-0">
-          <h2 className="text-2xl md:text-3xl lg:text-5xl font-light leading-normal text-slide-in">
+          <h2 className="text-[22px] md:text-[29px] lg:text-5xl text-customBlue font-normal leading-normal text-slide-in">
             Empowering <span className="text-orange-500">Industries with Innovative ,</span> Integrated Security and Operational Solutions.
           </h2>
-          <h3 className="mt-6 md:mt-8 text-base md:text-lg lg:text-lg text-customBlue text-slide-in">
+          <h3 className="mt-6 md:mt-8 text-[14px] text-customBlue md:text-[19px] lg:text-[20px] text-slide-in">
             At Vsmart, we provide integrated security solutions across various industries, focusing on exceptional service and operational excellence. Our innovative products enhance client operations, addressing inefficiencies and streamlining processes. By understanding each client's unique needs, we deliver customized solutions, establishing ourselves as trusted partners in security and video management.
           </h3>
-          <button className='bg-blue-800 mt-5 text-white rounded-md p-2 hidden lg:flex items-center group'>
+          <a href="/contact"><button className='bg-blue-800 mt-5 text-white rounded-md p-2 hidden lg:flex items-center group'>
             Get in touch
             <p className='arrow-icon'>
               <LuArrowUpRight className='ml-2 text-[20px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[15deg]' />
             </p>
-          </button>
+          </button></a>
         </div>
       </div>
       <div className="lg:w-full mt-10 lg:mt-20">
-        <h3 className="text-xl md:text-2xl lg:text-3xl font-light text-center">
+        <h3 className="text-xl md:text-2xl lg:text-3xl font-normal text-center">
           We are proud to be awarded & known by
         </h3>
         <div className="mt-8 md:mt-12 flex justify-center lg:justify-center flex-wrap gap-10 md:gap-40 lg:gap-50">

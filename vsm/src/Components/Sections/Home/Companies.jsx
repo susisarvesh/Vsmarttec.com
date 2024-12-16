@@ -5,7 +5,6 @@ const Companies = () => {
   const imgRef = useRef([]);
   const [currentCarousel, setCurrentCarousel] = useState(0);
 
-  // Array of arrays to manage different sets of logos with names
   const clientSets = [
     [
       { logo: "https://ik.imagekit.io/zhf0gkzac/VSmart/vsmartcompanies/amarraja.jpeg?updatedAt=1724591953707", name: "Amarraja" },
@@ -80,7 +79,7 @@ const Companies = () => {
         stagger: 0.2,
       }
     );
-  }, [currentCarousel]); // Re-run animation when currentCarousel changes
+  }, [currentCarousel]);
 
   // Automatically change carousel every 3.3 seconds
   useEffect(() => {
@@ -88,26 +87,36 @@ const Companies = () => {
       setCurrentCarousel((prev) => (prev + 1) % clientSets.length);
     }, 3300);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval);
   }, []);
 
   const ClientLogo = ({ logo, name, index }) => {
     return (
       <div
-        style={{ textAlign: "center", margin: "0.5%" }}
         ref={(el) => (imgRef.current[index] = el)}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          width: "160px", // Fixed width
+          height: "120px", // Fixed height
+          margin: "1%",
+        }}
       >
         <img
           src={logo}
-          className="rounded-lg mix-blend-multiply grayscale object-cover hover:grayscale-0 transition duration-600 lg:m-2"
+          alt={`Client Logo: ${name}`}
           style={{
-            width: "160px", // Fixed width
-            height: "139px", // Fixed height
-            objectFit: "contain", // Ensure the image covers the area
+            width: "100%",
+            height: "100%",
+            objectFit: "contain", // Ensures image scaling without distortion
+            aspectRatio: "4 / 3", // Consistent aspect ratio
             userSelect: "none",
-            aspectRatio: "3/2" // Ensuring consistent aspect ratio
+            filter: "grayscale(1)", // Initial grayscale effect
+            transition: "filter 0.3s ease", // Smooth transition
           }}
-          alt={`Client Logo: ${name}`} // Use name for alt attribute
+          onMouseEnter={(e) => (e.target.style.filter = "grayscale(0)")}
+          onMouseLeave={(e) => (e.target.style.filter = "grayscale(1)")}
         />
       </div>
     );

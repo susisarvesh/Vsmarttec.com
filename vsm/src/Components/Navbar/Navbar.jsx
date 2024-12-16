@@ -13,17 +13,17 @@ function Navbar() {
         {
             title: 'Security & Surveillance Solutions',
             description: 'Protect your space with cutting-edge security solutions featuring globally recognized cameras, smart video recorders, and high-quality monitors.',
-            link: '/security-surveillance',
+            link: '/physical-security/AutomaticGate',
         },
         {
             title: 'Time Attendance & Access control',
             description: 'Efficiently track employee hours and manage access with our advanced time attendance and access control systems, perfect for businesses of any size',
-            link: '/time-attendance',
+            link: '/electronic-security-systems/AccessControl',
         },
         {
              title: 'Smart Gate & Parking Solutions',
             description: 'Secure your premises with our smart gate and parking automation systems, offering advanced access control for businesses.',
-            link: '/security-surveillance',
+            link: '/smart-building-automation/EnergyManagement',
         },
         {
             title: 'Discover Our Solutions',
@@ -75,7 +75,7 @@ function Navbar() {
                                 <div className='flex flex-col h-full justify-between items-start text-[24px] border border-white rounded-lg'>
                                     {pageLinks.map((link, index) => (
                                         <a href={link.link} key={index} className='flex justify-between items-center p-3 w-full h-full group'>
-                                            <li className='list-none text-[27px]'>{link.name}</li>
+                                            <li className='list-none text-[23px]'>{link.name}</li>
                                             <p className='arrow-icon'><LuArrowUpRight className='text-[32px] transform transition-transform duration-300 ease-in-out group-hover:rotate-[25deg]' /></p>
                                         </a>
                                     ))}

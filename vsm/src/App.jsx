@@ -106,8 +106,8 @@ function App() {
 
         {/* Fire Safety and Emergency */}
         <Route path="/fire-safety-&-emergency/*" element={<FireAlarm />}>
-          <Route path="" element={<Navigate to="AuxillaryControls" replace />} />
-          <Route path="AuxillaryControls" element={<AuxillaryControls />} />
+          <Route path="" element={<Navigate to="AuxiliaryControls" replace />} />
+          <Route path="AuxiliaryControls" element={<AuxillaryControls />} />
           <Route path="FireSuppression" element={<FireSuppression />} />
           <Route path="IntelligentFireDetection" element={<IntelligentFireDetection />} />
           <Route path="NotificationAppliances" element={<NotificationAppliances />} />
