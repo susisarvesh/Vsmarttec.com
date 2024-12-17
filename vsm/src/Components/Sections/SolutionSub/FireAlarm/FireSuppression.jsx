@@ -54,7 +54,7 @@ const FireSuppression = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Fire%20Suppression%201.webp?updatedAt=1734333645093"
                 alt="Fire Suppression 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +62,14 @@ const FireSuppression = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Fire%20Suppression%202.webp?updatedAt=1734333634500"
                   alt="Fire Suppression 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Fire%20Suppression%203.webp?updatedAt=1734333634059"
                   alt="Fire Suppression 3"
                   className="w-full h-full object-cover"
                 />

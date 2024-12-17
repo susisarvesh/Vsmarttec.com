@@ -53,8 +53,9 @@ const LidarSystem = () => {
         <div className="grid-item col-span-1 sm:col-span-2 lg:grid-cols-2 xl:grid-cols-2 p-1 rounded-lg overflow-hidden">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
+              {/* https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Lider%20System%203.webp?updatedAt=1734333650099 */}
               <img
-                src="https://www.example.com/lidar1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Lider%20System%203.webp?updatedAt=1734333650099"
                 alt="LiDAR System 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +63,14 @@ const LidarSystem = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/lidar2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Lider%20System%202?updatedAt=1734333648415"
                   alt="LiDAR System 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/lidar3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Lider%20System%201.webp?updatedAt=1734333647648"
                   alt="LiDAR System 3"
                   className="w-full h-full object-cover"
                 />

@@ -54,7 +54,7 @@ const IntrusionDetection = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/intrusiondetection1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Intrusion%20Detection%201.webp?updatedAt=1734333644307"
                 alt="Intrusion Detection 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +62,14 @@ const IntrusionDetection = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/intrusiondetection2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Intrusion%20Detection%202.webp?updatedAt=1734333647601"
                   alt="Intrusion Detection 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/intrusiondetection3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Intrusion%20Detection%20Systems%203.webp?updatedAt=1734333645728"
                   alt="Intrusion Detection 3"
                   className="w-full h-full object-cover"
                 />

@@ -54,7 +54,7 @@ const EnergyManagement = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Energy%20Management%201.jpg?updatedAt=1734333769877"
                 alt="Energy Management 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +62,14 @@ const EnergyManagement = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Energy%20Management%20Solutions%201.jpg?updatedAt=1734333669491"
                   alt="Energy Management 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Energy%20Management%20Solutions%203.jpg?updatedAt=1734333665816"
                   alt="Energy Management 3"
                   className="w-full h-full object-cover"
                 />

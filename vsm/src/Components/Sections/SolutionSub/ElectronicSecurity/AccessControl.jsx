@@ -53,7 +53,7 @@ Vsmart’s attendance and access control systems deliver efficient solutions for
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.appliedglobal.com/wp-content/uploads/How-to-Create-a-Modern-Meeting-Room-Setup.png"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/ACCESS%20control%201.1.jpeg?updatedAt=1734333656917"
                 alt="Access Control 1"
                 className="w-full h-full object-cover"
               />
@@ -61,14 +61,14 @@ Vsmart’s attendance and access control systems deliver efficient solutions for
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.appliedglobal.com/wp-content/uploads/How-to-Create-a-Modern-Meeting-Room-Setup.png"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Access%20Control%202.1.jpg?updatedAt=1734333657872"
                   alt="Access Control 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.appliedglobal.com/wp-content/uploads/How-to-Create-a-Modern-Meeting-Room-Setup.png"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Access%20Control%203.jpg?updatedAt=1734333660375"
                   alt="Access Control 3"
                   className="w-full h-full object-cover"
                 />

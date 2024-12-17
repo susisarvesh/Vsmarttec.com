@@ -54,7 +54,7 @@ const KeyManagement = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Secure%20Key%20Management%202.webp?updatedAt=1734333655009"
                 alt="Key Management 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +62,14 @@ const KeyManagement = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Secure%20Key%20Management%201.webp?updatedAt=1734333652506"
                   alt="Key Management 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Secure%20Key%20Management%203.jpeg?updatedAt=1734333652681"
                   alt="Key Management 3"
                   className="w-full h-full object-cover"
                 />

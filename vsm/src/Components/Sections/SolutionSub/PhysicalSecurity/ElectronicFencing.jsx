@@ -53,8 +53,11 @@ const ElectronicFencing = () => {
         <div className="grid-item col-span-1 sm:col-span-2 lg:grid-cols-2 xl:grid-cols-2 p-1 rounded-lg overflow-hidden">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
+             {/* https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Electronic%20Fencing%20Solutions%203.jpg?updatedAt=1734333607613 */}
+              {/* https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Electronic%20Fencing%20Solutions%201.jpg?updatedAt=1734333772228 */}
+              {/* https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Electronic%20Fencing%20Solutions%202.jpg?updatedAt=1734333610068 */}
               <img
-                src="https://www.example.com/electronicfence1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Electronic%20Fencing%20Solutions%202.jpg?updatedAt=1734333610068"
                 alt="Electronic Fencing 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +65,14 @@ const ElectronicFencing = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/electronicfence2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Electronic%20Fencing%20Solutions%201.jpg?updatedAt=1734333772228"
                   alt="Electronic Fencing 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/electronicfence3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Electronic%20Fencing%20Solutions%203.jpg?updatedAt=1734333607613"
                   alt="Electronic Fencing 3"
                   className="w-full h-full object-cover"
                 />

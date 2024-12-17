@@ -54,7 +54,7 @@ const LightningControl = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Lighting%20Control%201.webp?updatedAt=1734333649032"
                 alt="Lightning Control 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +62,14 @@ const LightningControl = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Lighting%20Control%202.jpg?updatedAt=1734333649005"
                   alt="Lightning Control 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Lighting%20Control%203.jpg?updatedAt=1734333649491"
                   alt="Lightning Control 3"
                   className="w-full h-full object-cover"
                 />

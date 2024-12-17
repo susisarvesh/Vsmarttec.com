@@ -54,7 +54,7 @@ const TurnstileSolution = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/turnstile1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Turnstile%201.jpg?updatedAt=1734333655263"
                 alt="Turnstile 1"
                 className="w-full h-full object-cover"
               />
@@ -62,7 +62,7 @@ const TurnstileSolution = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/turnstile2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Turnstile%202.jpg?updatedAt=1734333655161"
                   alt="Turnstile 2"
                   className="w-full h-full object-cover"
                 />

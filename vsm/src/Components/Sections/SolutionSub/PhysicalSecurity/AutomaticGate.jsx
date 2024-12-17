@@ -51,10 +51,12 @@ const AutomaticGate = () => {
 
         {/* Other Images */}
         <div className="grid-item col-span-1 sm:col-span-2 lg:grid-cols-2 xl:grid-cols-2 p-1 rounded-lg overflow-hidden">
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
-            <div className="bg-gray-300 rounded-lg overflow-hidden">
+          <div className="grid grid-cols-1 gap-4 h-auto lg:grid-cols-2 md:grid-cols-2">
+            <div className="bg-gray-300 rounded-lg overflow-auto">
+              {/* https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Automatic%20Gate%203.webp?updatedAt=1734333776444 */}
+              {/* https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Automatic%20Gate%201.webp?updatedAt=1734333602356 */}
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Automatic%20Gate%203.webp?updatedAt=1734333776444"
                 alt="Automatic Gate 1"
                 className="w-full h-full object-cover"
               />
@@ -62,16 +64,16 @@ const AutomaticGate = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Automatic%20Gate%202.webp?updatedAt=1734333602362"
                   alt="Automatic Gate 2"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Automatic%20Gate%201.webp?updatedAt=1734333602356 "
                   alt="Automatic Gate 3"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>

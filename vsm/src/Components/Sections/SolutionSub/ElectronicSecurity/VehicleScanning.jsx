@@ -44,8 +44,10 @@ const VehicleScanning = () => {
               Vsmart’s Under vehicle scanning solutions utilize advanced imaging technologies, such as X-rays or high-resolution cameras, to inspect the underside of vehicles for security purposes. Installed at checkpoints or secure entry points, these systems detect hidden threats such as explosives, contraband, or concealed compartments.
             </p>
             <p className="mt-4 hidden lg:block">
-              By providing real-time analysis and alerts, Vsmart’s solutions enhance security and prevent unauthorized or dangerous items from entering sensitive areas, crucial for maintaining safety in high-security environments like airports and government buildings.
+              Vsmart’s cutting-edge solutions revolutionize safety and security in high-risk environments by offering real-time analysis, detection, and alerts. Designed with precision and powered by advanced technologies such as AI-driven object recognition, machine learning, and integrated IoT systems, Vsmart’s solutions ensure that unauthorized, suspicious, or dangerous items are quickly identified and prevented from entering sensitive areas.
+
             </p>
+            <p className="mt-4 hidden lg:block">In high-security environments such as airports, government buildings, data centers, and military facilities, even the slightest lapse can have severe consequences. Vsmart provides robust tools to minimize these risks by enabling automated threat detection, instantaneous notifications, and proactive decision-making. The system is capable of identifying items like weapons, explosives, contraband, or other hazardous materials with unparalleled accuracy, while also reducing the risk of human error.</p>
           </div>
         </div>
 
@@ -54,7 +56,7 @@ const VehicleScanning = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Vehicle%20Scanning%20Solutions%201.webp?updatedAt=1734333655482"
                 alt="Vehicle Scanning 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +64,14 @@ const VehicleScanning = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Vehicle%20Scanning%20Solutions%202.webp?updatedAt=1734333656311"
                   alt="Vehicle Scanning 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Vehicle%20Scanning%20Solutions%203.jpg?updatedAt=1734333658060"
                   alt="Vehicle Scanning 3"
                   className="w-full h-full object-cover"
                 />

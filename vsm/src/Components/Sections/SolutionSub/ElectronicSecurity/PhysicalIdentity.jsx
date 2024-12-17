@@ -44,7 +44,7 @@ const PhysicalIdentity = () => {
               Vsmart’s physical identity and access systems offer robust solutions for managing and securing entry to physical spaces. Utilizing advanced technologies such as smart cards, biometric scanners (fingerprints, retina scans), and keypads, these systems verify and authenticate users to control access to restricted areas.
             </p>
             <p className="mt-4 hidden lg:block">
-              By tracking entries and exits, Vsmart’s systems enhance security and ensure that only authorized individuals can access sensitive locations, making them crucial for safeguarding and managing security protocols in various environments.
+              By tracking entries and exits in real time, Vsmart’s systems significantly enhance security by ensuring that only authorized individuals can access sensitive locations. Each entry or exit is logged and monitored, creating a comprehensive audit trail that can be reviewed to identify anomalies, unauthorized attempts, or suspicious activity. This level of transparency not only bolsters security protocols but also improves operational efficiency by automating access management.
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ const PhysicalIdentity = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Physical%20Identity%20Solutions%201.jpg?updatedAt=1734333653638"
                 alt="Physical Identity 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +62,14 @@ const PhysicalIdentity = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Physical%20Identity%20Solutions%202.jpg?updatedAt=1734333652179"
                   alt="Physical Identity 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Physical%20Identity%20Solutions%203.webp?updatedAt=1734333651889"
                   alt="Physical Identity 3"
                   className="w-full h-full object-cover"
                 />

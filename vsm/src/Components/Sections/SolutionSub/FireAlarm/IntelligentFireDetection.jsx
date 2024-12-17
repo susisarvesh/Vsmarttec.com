@@ -54,7 +54,7 @@ const IntelligentFireDetection = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Intelligent%20Fire%20Detection%20Systems%201.jpg?updatedAt=1734333641502"
                 alt="Fire Detection 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +62,14 @@ const IntelligentFireDetection = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Intelligent%20Fire%20Detection%20Systems%202.jpg?updatedAt=1734333641202"
                   alt="Fire Detection 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Intelligent%20Fire%20Detection%20Systems%203.jpg?updatedAt=1734333647146"
                   alt="Fire Detection 3"
                   className="w-full h-full object-cover"
                 />

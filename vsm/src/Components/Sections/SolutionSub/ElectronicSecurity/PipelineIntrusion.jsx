@@ -54,7 +54,7 @@ const PipelineIntrusion = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/pipeline%20intrusion%202.jpg?updatedAt=1734333655006"
                 alt="Pipeline Intrusion 1"
                 className="w-full h-full object-cover"
               />
@@ -62,7 +62,7 @@ const PipelineIntrusion = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/pipeline%20intrusion%203.jpg?updatedAt=1734333652212"
                   alt="Pipeline Intrusion 2"
                   className="w-full h-full object-cover"
                 />

@@ -54,7 +54,7 @@ const ThermalImaging = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-2">
             <div className="bg-gray-300 rounded-lg overflow-hidden">
               <img
-                src="https://www.example.com/image1.jpg"
+                src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Thermal%20Imaging%201.jpg?updatedAt=1734333653490"
                 alt="Thermal Imaging 1"
                 className="w-full h-full object-cover"
               />
@@ -62,14 +62,14 @@ const ThermalImaging = () => {
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image2.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Thermal%20Imaging%202.jpg?updatedAt=1734333656976"
                   alt="Thermal Imaging 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="bg-gray-300 rounded-lg overflow-hidden">
                 <img
-                  src="https://www.example.com/image3.jpg"
+                  src="https://ik.imagekit.io/zhf0gkzac/VSmart/vssolutionimages/Thermal%20Imaging%203.jpg?updatedAt=1734333655253"
                   alt="Thermal Imaging 3"
                   className="w-full h-full object-cover"
                 />
