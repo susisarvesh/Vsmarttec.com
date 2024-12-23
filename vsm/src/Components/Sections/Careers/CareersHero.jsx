@@ -16,7 +16,7 @@ function CareersHero() {
 
       <div className="relative z-10 max-w-4xl p-4 lg:p-12 text-white mb-96">
         <h1 className="text-2xl md:text-5xl lg:text-6xl font-poppins">
-        Empowering <span className="text-gray-400">Progress </span>  with Excellence and Innovation
+       Grow Together with <span className='text-gray-400'>Vsmart</span> — Where Progress Meets Innovation
         </h1>
         
       </div>

@@ -23,7 +23,7 @@ function ContactHero() {
 
       <div className="absolute right-0 bottom-0 max-w-3xl p-4 lg:p-12 text-white mb-16">
         <p className="text-base lg:text-lg text-gray-300">
-        At Vsmart, every step in your career is a chance to learn, grow, and connect with a community that values your unique skills and passions.
+        When your business demands more than the ordinary, you need a security solution that stands out. At Vsmart, we specialize in delivering innovative security systems and custom software solutions that not only protect your assets but also drive your business forward. Trust us to elevate your security and empower your success
         </p>
      
       </div>

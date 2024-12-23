@@ -25,9 +25,9 @@ function AboutHero() {
         <p className="text-base lg:text-lg text-gray-300">
          Vsmart delivers tailored security solutions with a focus on innovation and exceptional service, transforming industry challenges into streamlined, effective solutions.
         </p>
-      <button className="mt-8 bg-white text-black py-3 px-6 rounded-lg text-sm md:text-base lg:text-lg font-semibold flex items-center">
+      <a href="/contact"><button className="mt-8 bg-white text-black py-3 px-6 rounded-lg text-sm md:text-base lg:text-lg font-semibold flex items-center">
               Book a free discovery call <span className="ml-2">→</span>
-            </button>
+            </button></a>
       </div>
     </div>
   );

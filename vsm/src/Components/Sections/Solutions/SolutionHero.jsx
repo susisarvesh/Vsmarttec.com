@@ -25,9 +25,9 @@ function SolutionHero() {
         <p className="text-base lg:text-lg text-gray-300">
         With over 6 years of experience, Vsmart provides top-notch product and technical support for corporate and government clients. Our certified team ensures first-call resolution and exceptional customer service for a wide range of products and services.
         </p>
-      <button className="mt-8 bg-white text-black py-3 px-6 rounded-lg text-sm md:text-base lg:text-lg font-semibold flex items-center">
+     <a href="/contact"> <button className="mt-8 bg-white text-black py-3 px-6 rounded-lg text-sm md:text-base lg:text-lg font-semibold flex items-center">
               Book a free discovery call <span className="ml-2">→</span>
-            </button>
+            </button></a>
       </div>
     </div>
   );

@@ -112,11 +112,11 @@ const Companies = () => {
             objectFit: "contain", // Ensures image scaling without distortion
             aspectRatio: "4 / 3", // Consistent aspect ratio
             userSelect: "none",
-            filter: "grayscale(1)", // Initial grayscale effect
+            // filter: "grayscale(1)", // Initial grayscale effect
             transition: "filter 0.3s ease", // Smooth transition
           }}
-          onMouseEnter={(e) => (e.target.style.filter = "grayscale(0)")}
-          onMouseLeave={(e) => (e.target.style.filter = "grayscale(1)")}
+          // onMouseEnter={(e) => (e.target.style.filter = "grayscale(0)")}
+          // onMouseLeave={(e) => (e.target.style.filter = "grayscale(1)")}
         />
       </div>
     );

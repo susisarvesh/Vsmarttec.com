@@ -49,12 +49,12 @@ const Bookcontact = () => {
                     We’re now accepting applications for skilled professionals to join our team! Contact us to explore how we can work together and bring your vision to life.
                 </p>
                 <div className="flex flex-col md:flex-row items-center md:items-center space-y-4 md:space-y-0 md:space-x-4 w-full justify-center">
-                    <button
+                    <a href="/careers"><button
                         aria-label="Book a free discovery call"
                         className="bg-customBlue text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors duration-300"
                     >
                         Visit Careers →
-                    </button>
+                    </button></a>
                 </div>
             </div>
         </div>
